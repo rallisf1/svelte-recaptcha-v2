@@ -237,7 +237,7 @@ onMount(async () => {
     if (browser) {
         const script = document.createElement("script");
         script.id = "googleRecaptchaScript";
-        script.src = `https://www.google.com/recaptcha/api.js?render=explicit&sitekey{sitekey}&onload=apiLoaded`;
+        script.src = `https://www.google.com/recaptcha/api.js?render=explicit&sitekey=${sitekey}&onload=apiLoaded`;
         script.async = true;
         script.defer = true;
         document.head.appendChild(script);

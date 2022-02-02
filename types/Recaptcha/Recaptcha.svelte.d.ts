@@ -7,7 +7,7 @@ export interface RecaptchaProps
      * Google recaptcha site key
      * @default ""
      */
-    siteKey?: string;
+    sitekey?: string;
 
     /**
      * Specify the placeholder text
